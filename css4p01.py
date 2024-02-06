@@ -101,23 +101,6 @@ print(len(cg.keys()))
 
 
 # ##### Q12. Do a correlation of the numerical features, what insights can you deduce? Mention at least 5 insights.
-# 
-# ##### And what advice can you give directors to produce better movies?
-# 
-# - High correlation between voting and revenue.
-# 
-# - Votes have high influence in rating and revenue.
-# 
-# - The number of films increases every year, but the revenue and year link is not as strong.
-# - Run time influence voters
-# 
-# - Meta score has high correlation with rating but low correlation with runtime.
-# 
-# 
-# Recommendation:
-# 
-# 
-# - I recommend that filmmakers prioritize creating content that engages audiences in order to produce better films. They need to analyze voting and ratings.
 
 data_for_corr = data.drop(['Rank', 'Title', 'Genre', 'Description', 'Actors', 'Director'], axis=1)
 corr = data_for_corr.corr(method = 'pearson')

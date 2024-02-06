@@ -1,2 +1,2 @@
 # c4-quiz1
-'This is the read me part'
+'CHPC2024 part 1'
